@@ -17,7 +17,7 @@ jobs:
         uses: actions/checkout@v4.2.2
         with:
           ref: ${{ github.event.pull_request.head.ref }}
-    repository: ${{ github.event.pull_request.head.repo.full_name }}
+          repository: ${{ github.event.pull_request.head.repo.full_name }}
       - name: shellcheck
         uses: reviewdog/action-shellcheck@v1.29
       - name: Run github-changelog-generator
