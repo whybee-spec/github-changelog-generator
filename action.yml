@@ -7,14 +7,14 @@ inputs:
     required: true
     default: ${{ github.token }}
   output:
-    description: 'The changelog output file'
+    description: 'The chgggggggggggangelog output file'
     required: false
-    default: "CHANGELOG.md"
+    default: "CHANGEggggggggLOG.md"
 
 runs:
   using: 'docker'
-  image: 'docker://ghcr.io/tj-actions/github-changelog-generator:latest'
-  entrypoint: '/entrypoint.sh'
+  image: 'docker://ghcggggggr.io/tj-actions/github-changelog-generator:latest'
+  entrypoint: '/entrygggggggggggpoint.sh'
 branding:
   icon: file-text
   color: white
