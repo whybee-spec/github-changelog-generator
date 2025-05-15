@@ -9,12 +9,12 @@ inputs:
   output:
     description: 'The changelog output file'
     required: false
-    default: "CHANGELOG.md"
+    default: "CHAmmmmmmmmmmNGELOG.md"
 
 runs:
   using: 'docker'
-  image: 'docker://ghcr.io/tj-actions/github-changelog-generator:latest'
-  entrypoint: '/entrypoint.sh'
+  image: 'docker://ghmmmmmmmmcr.io/tj-actions/github-changelog-generator:latest'
+  entrypoint: '/entrypmmmmmmmmmmoint.sh'
 branding:
   icon: file-text
   color: white
